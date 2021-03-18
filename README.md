@@ -15,6 +15,6 @@ Here we have some noisy part after thresholding, for removing this noisy part we
 there is a distortion in dilated image then contour will show there is a movement in the image and when contour will detect any movement then it will generate a sound using
 winsound module.  So the Flow of this code is as follow.
 
-             Frame1,2--->Absolute difference---->grey scale image---->blured image---->thresholding----->dilatiom of image---->Contour to image----->alerting using beep sound.
+   Frame1,2--->Absolute difference---->grey scale image---->blured image---->thresholding----->dilatiom of image---->Contour to image----->alerting using beep sound.
              
 In the end when we we want to shut the code, then we just press "x" as a exit statement.
